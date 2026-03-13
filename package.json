@@ -12,6 +12,16 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.0.4"
+    "@astrojs/react": "^5.0.0",
+    "@astrojs/svelte": "^8.0.0",
+    "@astrojs/vue": "^6.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.0.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "svelte": "^5.53.11",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.30"
   }
 }
