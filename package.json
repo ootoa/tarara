@@ -1,20 +1,17 @@
 {
   "name": "tarara",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/ootoa/tarara#readme",
-  "bugs": {
-    "url": "https://github.com/ootoa/tarara/issues"
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ootoa/tarara.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.0.4"
   }
 }
