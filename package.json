@@ -1,20 +1,27 @@
 {
   "name": "tarara",
-  "version": "1.0.0",
-  "description": "",
-  "homepage": "https://github.com/ootoa/tarara#readme",
-  "bugs": {
-    "url": "https://github.com/ootoa/tarara/issues"
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ootoa/tarara.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.0",
+    "@astrojs/svelte": "^8.0.0",
+    "@astrojs/vue": "^6.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^6.0.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "svelte": "^5.53.11",
+    "typescript": "^5.9.3",
+    "vue": "^3.5.30"
   }
 }
